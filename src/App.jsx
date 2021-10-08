@@ -1,8 +1,8 @@
 import React from 'react';
-//components
+
 import { Container } from './components/Container/Container';
 import { Feedback } from './components/Feedback/Feedback';
-//css
+
 import s from 'components/Container/Container.module.css';
 
 export default function App() {

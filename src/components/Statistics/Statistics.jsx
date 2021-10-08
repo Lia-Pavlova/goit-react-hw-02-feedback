@@ -12,7 +12,7 @@ const Statistics = ({
 }) => {
   return (
     <div className={s.feedback}>
-      <h2 className={s.title}>Statistics</h2>
+      <h2 className={s.title}>Statistics:</h2>
       <ul className={s.list}>
         <li className={s.item}>Good: {good}</li>
         <li className={s.item}>Neutral: {neutral}</li>
