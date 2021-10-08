@@ -12,7 +12,7 @@
 - JS-код чистый и понятный, используется `Prettier`.
 - Стилизация делается только `SASS`, `CSS-модулями` или `Styled Components`.
   Выделяй 20% времени на стилизацию и 80% на JS.
-  
+
 # Виджет отзывов
 
 Как и большинство компаний, кафе Expresso собирает отзывы от своих клиентов.
@@ -38,7 +38,7 @@ state = {
 
 Интерфейс может выглядеть так.
 
-![preview](./step-1.png)
+![preview](./preview/step-1.png)
 
 ## Шаг 2
 
@@ -49,7 +49,7 @@ state = {
 `countPositiveFeedbackPercentage()`, подсчитывающие эти значения основываясь на
 данных в состоянии (вычисляемые данные).
 
-![preview](./step-2.png)
+![preview](./preview/step-2.png)
 
 ## Шаг 3
 
@@ -70,4 +70,4 @@ state = {
 того, как был собран хотя бы один отзыв. Сообщение об отсутствиии статистики
 вынеси в компонент `<Notification message="No feedback given">`.
 
-![preview](./preview.gif)
+![preview](./preview/preview.gif)
